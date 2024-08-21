@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "timer",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Timer Cheat",
+  "description": "LEGALIZE METHAMPHETAMINE",
   "authors": [
-    "Turnip Labs"
+    "chexo3"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "TODO: Insert Modrinth link",
+    "sources": "https://github.com/chexo3/BTA-Timer-Cheat"
   },
 
 	"icon": "icon.png",
-  "license": "CC0-1.0",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"chexo3.Timer.Timer"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"chexo3.Timer.Timer"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"chexo3.Timer.Timer"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"chexo3.Timer.Timer"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"timer.mixins.json"
   ],
 
   "depends": {
